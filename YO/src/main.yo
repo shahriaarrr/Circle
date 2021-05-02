@@ -31,6 +31,9 @@ func main()
         io::println("#nlresult = #{z}#nl")
       }
       case 3{break loop}
+      default{
+        io::println("#nlError! Please select one of the following three options#nl")
+      }
     }
   }
 
